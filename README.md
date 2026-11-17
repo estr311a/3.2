@@ -19,7 +19,13 @@ Treść:
 treść notatki
 ```
 
-Wpisy rozdziela jedna pusta linia. Przykładowy wynik z trzema rodzajami treści znajduje się w `rundy/runda-4.md`.
+Wpisy rozdziela jedna pusta linia. Wszystkie pliki rund używają tego samego zestawu dwóch notatek testowych; w rundzie 4 dodatkowe przykłady były częścią prośby, nie dodatkowymi wpisami testowymi.
+
+Przykłady dołączone do prośby z rundy 4:
+
+1. Jednolinijkowa: tytuł `Zakupy`, treść `Kupić chleb i mleko.`
+2. Wielolinijkowa: tytuł `Plan na weekend`, treść `Pójść na spacer.` oraz `Zabrać aparat i wodę.`
+3. Polskie znaki i myślnik w tytule: tytuł `Łódź - plan na dziś`, treść `Sprawdzić wystawę w muzeum.` oraz `Zadzwonić do przyjaciół.`
 
 ## Rundy i powtórzenie
 
