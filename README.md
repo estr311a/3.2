@@ -54,4 +54,4 @@ OpenAI zaleca doprecyzować instrukcje i w razie potrzeby podać przykłady; dok
 
 ## GitHub
 
-Commity są lokalne. W chwili przygotowania README repozytorium nie miało skonfigurowanego zdalnego adresu GitHub, więc nie wykonano `git push`.
+Repozytorium publiczne: [estr311a/3.2](https://github.com/estr311a/3.2). Gałąź `master` i historia commitów zostały wysłane na GitHuba.
