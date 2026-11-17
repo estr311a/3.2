@@ -31,13 +31,23 @@ public partial class MainWindow : Window
 
         if (string.IsNullOrWhiteSpace(title) || string.IsNullOrWhiteSpace(content))
         {
+            StatusText.Text = "Podaj tytuł i treść notatki.";
             return;
         }
 
         _notes.Insert(0, new Note(DateTime.Now, title, content));
-        SaveNotes();
-        TitleInput.Clear();
-        ContentInput.Clear();
+        try
+        {
+            SaveNotes();
+            TitleInput.Clear();
+            ContentInput.Clear();
+            StatusText.Text = "Zapisano";
+        }
+        catch (Exception ex)
+        {
+            _notes.RemoveAt(0);
+            StatusText.Text = $"Nie udało się zapisać: {ex.Message}";
+        }
     }
 
     private void LoadNotes()

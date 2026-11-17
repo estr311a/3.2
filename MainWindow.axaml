@@ -18,6 +18,7 @@
                      MinHeight="120"
                      VerticalContentAlignment="Top" />
             <Button Content="Zapisz" HorizontalAlignment="Left" Click="SaveButton_Click" />
+            <TextBlock Name="StatusText" />
         </StackPanel>
 
         <Border Grid.Row="1" Padding="16" CornerRadius="8" BorderThickness="1"
